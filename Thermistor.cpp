@@ -1,6 +1,14 @@
 #include <Thermistor.h>
 
 // Constructors ////////////////////////////////////////////////////////////////
+/*
+pin - Arduino identifier of the analog input pin in the circuit
+rH  - Resistance of the fixed resistor on the high side of the voltage divider circuit
+ka  - ka coefficient in the Steinhart-Hart Model
+kb  - kb coefficient in the Steinhart-Hart Model
+kx2 - coefficient for lnrt^2 (not in the Stienhart-Hart model, but it seems to improve fits)
+kc  - kc coefficient in the Steinhart-Hart Model
+*/
 
   Thermistor::Thermistor(uint8_t pin, uint16_t rH, double ka, double kb, double kx2, double kc)
   {
