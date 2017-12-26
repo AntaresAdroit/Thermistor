@@ -1,5 +1,5 @@
 //Basic demonstration of how to use the library
-//Takes measurements from 2 separate thermistors and
+//Takes readings from 2 separate thermistors and
 //prints them to the serial port. Each reading is an
 //average of 10 measurements.
 
